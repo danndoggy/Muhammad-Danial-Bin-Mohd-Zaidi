@@ -1,0 +1,147 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.topnavi {
+    background-color: #180a0a;
+    overflow: hidden;
+    top: 0;
+    position: fixed;
+    width: 100%;
+  }
+
+  .topnavi a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    
+  }
+  
+  .topnavi a:hover {
+    background-color: beige;
+    color: black;
+  }
+  
+  .topnavi a.active {
+    background-color: beige;
+    color: white;
+  }
+
+header {
+    background-color: #ffffff;
+    color: #030303;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    background-image: url('iium-photo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.photo-gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.photo-gallery img {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+section {
+    margin: 20px;
+    text-align: left;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.program-info {
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+form label,
+form input,
+form select,
+form button {
+    display: block;
+    margin-bottom: 15px;
+}
+
+input, select, button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+.contact-us {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    z-index: 10;
+  }
+  
