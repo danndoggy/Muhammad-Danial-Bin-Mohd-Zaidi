@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RM1 Campaign Program</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="interaction.js" defer></script>
+</head>
+<body>
+    
+    <div class="topnavi">      
+        <a href="#contact-us">Contact us</a>
+
+        <a href="#form-container">Form</a>
+
+        <a href="#program-info">Welcome</a>
+
+        
+      </div>
+    <header>
+        <section class="program-info" id="program-info">
+        <br><img src="uialogo.png" alt="IIUM Logo" width="500" height="100">
+        <h1>RM1 CAMPAIGN PROGRAM</h1>
+        <h2>LET YOUR CONTRIBUTIONS BE PERPETUAL FOR THE PLEASURE OF ALLAH SWT</h3>
+        <h3>The example of those who spend their wealth in the cause of Allah is that of a grain that sprouts into seven ears,</p> each bearing one hundred grains. And Allah multiplies ˹the reward even more˺ to whoever He wills.</p> For Allah is All-Bountiful, All-Knowing.</p>
+        <h2>Quranic Verse: Al-Baqarah:261</h2>
+
+        <section class="photo-gallery">
+            <img src="ringgit.jpg" alt="Photo 1" width="300" height="200">
+            <img src="uia.jpg" alt="Photo 2" width="300" height="200">
+            <img src="bantuan.jpg" alt="Photo 3" width="300" height="200">
+        </section>
+    </section>
+    </header>
+
+    <section class="form-container" id="form-container">
+        <h2>PARTICIPATION IN RM1 CAMPAIGN-MONTHLY SALARY DEDUCTION</h2>
+        <form id="deduction-form" action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Eg: Abu Bin Ahmad">
+
+            <label for="staff-no">Staff No:</label>
+            <input type="text" id="staffno" name="staff" placeholder="Eg: 2219834">
+
+            <label for="contact-no">Contact No:</label>
+            <input type="text" id="contactno" name="contact" placeholder="Eg: 0135673849">
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Eg: someone@gmail.com">
+
+            <label for="kcdio">K/C/D/I/O:</label>
+            <input type="text" id="kcdio" name="workplace" placeholder="Eg: Kulliyyah">
+
+            <label for="salary">Monthly Salary(RM):</label>
+            <input type="text" id="salary" name="salary" placeholder="Eg: 10000">
+
+            <p>Amount to be deducted: RM <span id="deduction-amount">0.00</span></p>
+
+            <label for="contribution-type">Contribution Type:</label>
+            <select id="contribution-type" name="contribution-type" required>
+                <option value="1">Student</option>
+                <option value="2">Staff</option>
+            </select>
+
+            <label for="deduction-start-date">Start Date:</label>
+            <input type="text" id="deduction-start-date" name="deduction-start-date" placeholder="MM/YYYY" required>
+            
+            <label for="deduction-end-date">End Date:</label>
+            <input type="text" id="deduction-end-date" name="deduction-end-date" placeholder="MM/YYYY" required>
+
+            <label for="kulliyyah">Choose Your Kulliyyah:</label>
+            <select id="kulliyyah" name="kulliyyah" required>
+                <option value="kulliyyah1">Kulliyyah Of Engineering</option>
+                <option value="kulliyyah2">Kulliyyah Of Information & Communication Technology</option>
+                <option value="kulliyyah1">Kulliyyah Of Education</option>
+                <option value="kulliyyah1">Kulliyyah Of Law</option>
+                <option value="kulliyyah1">Kulliyyah Of Architecture & Environmental Design</option>
+                <option value="kulliyyah1">Kulliyyah Of Economics & Management Sciences</option>
+            </select>
+
+            <button type="submit">Submit</button>
+            
+            <section class="contact-us" id="contact-us">
+                <p>IIUM ENDOWMENT FUND</p>
+                <p>Level 3, Rectory, International Islamic University Malaysia, P.O. Box 10, 50728 Kuala Lumpur</p>
+                <p>Tel: 03 6196 4268</p>
+                <p>Email: ief@iium.edu.my</p>
+                <p>Website: <a href="www.iium.edu.my/ief">www.iium.edu.my/ief</a></p>
+            </section>
+        </form>
+    </section>
+    <footer>
+        &copy; 2023 IIUM Endowment Fund
+    </footer>
+</body>
+</html>
